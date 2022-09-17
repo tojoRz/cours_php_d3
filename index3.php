@@ -10,11 +10,11 @@
 <body>
     <section>
         <h1>Formulaire</h1>
-        <form action="#" method="POST">
-            <input type="text" name="nom">
-            <input type="text" name="prenom">
-            <input type="text" name="age">
-            <input type="text" name="dateN">
+        <form id="forms" name="form" action="config.php" method="POST">
+        Nom :   <input type="text" name="nom">
+        Prénom :    <input type="text" name="prenom">
+        Age :  <input type="text" name="age">
+        Date de naissance :    <input type="text" name="dateN">
             <input type="submit" value="valider">
         </form>
     </section>
